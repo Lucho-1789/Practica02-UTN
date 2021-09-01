@@ -1,0 +1,156 @@
+body {
+	font-family: 'Julius Sans One', sans-serif;
+	margin: 0px;
+	background-color: #24214C;
+}
+.cabecera {
+	bckground-image: url("img/code.jpg");
+	background-color: #24214C;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 25px;
+
+}
+nav {
+	padding: 10px;
+}
+.contenedor {
+	display: flex;
+	background-color: #24214C;
+	height: 550px;
+
+}
+.presentacion {
+	background-color: #24214C;
+	margin: 1 rem;
+	padding: 2 rem;
+	text-align: center;
+	color: #DDDDE0;
+	width: 60%;
+
+}
+.utnLogo {
+	box-shadow: 10px 10px 10px black;
+	width: 300px;
+	border-radius: 20px;
+}
+.video {
+	background-color: #24214C;
+	adding: 3 rem;
+	margin: 0.5 rem;
+	padding-top: 80px;
+	padding-right: 10px;
+	margin-right: 11px;
+}
+iframe {
+	width: 500px;
+	padding: 10px;
+}
+.camino {
+	padding: 5px;
+}
+.titulo {
+	font-size: 30px;
+}
+.luis {
+	font-size: 30px;
+}
+
+.miniBio {
+	background-color: #24214C;
+	padding: 3rem;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	margin: 10px;
+	text-align: center;
+	
+}
+.menuPrincipal {
+	list-style: none;
+	text-align: center;
+	font-size: 5px;
+
+}
+.menuPrincipal li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 15px;
+
+
+}
+.menuPrincipal a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: ;
+	color: #ffffff;
+	padding: 1.2 rem;
+	font-size: 20px;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff
+	
+}
+.formulario {
+	background-color: #24214C;
+	padding: 2rem;
+	color: #ffffff;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 20px;
+	height: 200px;
+	margin: 10px 10px;
+}
+.segundo {
+	display: inline-block;
+	color: #ffffff;
+	width: 300px;
+	height: 210px;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 1rem;
+	background-color: #24214C;
+}
+.tercero {
+	text-align: center;
+	color: #ffffff;
+	margin: 10px;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 20px;
+
+}
+.boton {
+	background-color: #24214C;
+	color: #ffffff;
+	font-size: 15px;
+	margin-right: 10px;
+}
+.intereses {
+
+}
+.cuento {
+	font-size: 20px;
+}
+
+.pieDePagina {
+	display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    adding: 1.2 rem;
+	font-size: 20px;
+}
+.pie li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.fraga {
+	margin-right: 365px;
+}
