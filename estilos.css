@@ -1,156 +1,82 @@
+* {
+	font-family: 'Secular One', sans-serif;e;
+}
 body {
-	font-family: 'Julius Sans One', sans-serif;
-	margin: 0px;
-	background-color: #24214C;
-}
-.cabecera {
-	bckground-image: url("img/code.jpg");
-	background-color: #24214C;
-	background-repeat: no-repeat;
+	background-image: url(https://img.freepik.com/free-vector/gradient-liquid-abstract-background_52683-60469.jpg?size=626&ext=jpg);
 	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*------Carrousel---------*/
+
+.calesita {
+	width: 100%;
 	display: flex;
-	justify-content: flex-end;
-	margin-right: 25px;
+	flex-wrap: wrap;
+}
+	@media (min-width: 1024px) {
+   .calesita {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+ }
+}
 
+.carousel-inner {
+	width: 100%;
+	height: 330px;
+	object-fit: cover;
 }
-nav {
-	padding: 10px;
-}
-.contenedor {
+
+/*-----------Cards--------*/
+.tarjetasCursos {
 	display: flex;
-	background-color: #24214C;
-	height: 550px;
-
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	
 }
-.presentacion {
-	background-color: #24214C;
-	margin: 1 rem;
-	padding: 2 rem;
-	text-align: center;
-	color: #DDDDE0;
-	width: 60%;
-
-}
-.utnLogo {
-	box-shadow: 10px 10px 10px black;
-	width: 300px;
-	border-radius: 20px;
-}
-.video {
-	background-color: #24214C;
-	adding: 3 rem;
-	margin: 0.5 rem;
-	padding-top: 80px;
-	padding-right: 10px;
-	margin-right: 11px;
-}
-iframe {
-	width: 500px;
-	padding: 10px;
-}
-.camino {
-	padding: 5px;
-}
-.titulo {
-	font-size: 30px;
-}
-.luis {
-	font-size: 30px;
+.cursos {
+	height: 15rem;
+	object-fit: cover;
 }
 
+/*-----Objetivos------*/
 .miniBio {
-	background-color: #24214C;
-	padding: 3rem;
-	color: #ffffff;
-	border: 1px solid #ffffff;
-	border-radius: 20px;
-	margin: 10px;
-	text-align: center;
-	
-}
-.menuPrincipal {
-	list-style: none;
-	text-align: center;
-	font-size: 5px;
-
-}
-.menuPrincipal li {
-	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
-	padding-top: 15px;
-
-
-}
-.menuPrincipal a{
-	text-decoration: none;
-	text-transform: uppercase;
-	background-color: ;
-	color: #ffffff;
-	padding: 1.2 rem;
-	font-size: 20px;
-	border-bottom: 1px solid #ffffff;
-	border-top: 1px solid #ffffff
-	
-}
-.formulario {
-	background-color: #24214C;
+	width: 100%;
 	padding: 2rem;
-	color: #ffffff;
-	display: inline-block;
-	border: 1px solid white;
-	border-radius: 20px;
-	height: 200px;
-	margin: 10px 10px;
-}
-.segundo {
-	display: inline-block;
-	color: #ffffff;
-	width: 300px;
-	height: 210px;
-	border: 1px solid white;
-	border-radius: 20px;
-	padding: 1rem;
-	background-color: #24214C;
-}
-.tercero {
+	background-color: #eee;
 	text-align: center;
-	color: #ffffff;
-	margin: 10px;
-	padding: 20px;
-	border: 1px solid white;
-	border-radius: 20px;
-
-}
-.boton {
-	background-color: #24214C;
-	color: #ffffff;
-	font-size: 15px;
-	margin-right: 10px;
-}
-.intereses {
-
-}
-.cuento {
-	font-size: 20px;
 }
 
-.pieDePagina {
-	display: inline-block;
-    color: #ffffff;
-    text-align: center;
-    adding: 1.2 rem;
-	font-size: 20px;
+
+/*----------Footer------------*/
+
+.pieDePagina{
+	background-color: #444;
+	color: #fff;
 }
-.pie li {
-	display: inline-block;
-	list-style: none;
+.menuFooter {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+
+}
+.menuFooter a {
 	text-decoration: none;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 20px;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 2rem;
+
 }
-.fraga {
-	margin-right: 365px;
+@media (min-width: 768px) {
+   .menuFooter {
+   	flex-direction: row;   
+  }
 }
+
+.pie {
+	list-style: none;
+	text-align: justify;
+}
+
