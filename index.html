@@ -3,165 +3,228 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Primera página de Luis</title>
+
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5678/5678575.png">
+  <title>Primera página de Luis</title>
 	<!-- Bootstrap por cdn
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    -->
+  -->
 
-    <!-- Bootsrtrap compilado -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+  <!-- Bootsrtrap compilado -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 
 
 
 <body>
 	<header class="cabecera">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Inicio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Curso
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">HTML</a></li>
-            <li><a class="dropdown-item" href="#">CSS</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Javascript</a></li>
-          </ul>
-        </li>
-        
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Búsqueda</button>
-      </form>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #D47428;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logoPagina" src="https://cdn-icons-png.flaticon.com/512/5678/5678575.png" alt="Logo cursos" width="auto" height="22"> Cursos e-Learning</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/inscripcion.html">INSCRIPCIÓN</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Curso
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">HTML</a></li>
+              <li><a class="dropdown-item" href="#">CSS</a></li>
+              <li><a class="dropdown-item" href="#">Javascript</a></li>
+              <li><a class="dropdown-item" href="#">PHP</a></li>
+              <li><a class="dropdown-item" href="#">Ruby</a></li>
+              <li><a class="dropdown-item" href="#">Python</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Inscribite</a></li> -->
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- cards parte superior -->
+<div class="tarjetasCursos mt-4 mb-5 sm container">
+
+  <div class="card m-2 col-4" style="width: 19rem;" >
+   <img src="img/html.jpg" class="card-img-top p-2 cursos" alt="logo-html">
+   <div class="card-body">
+    <h5 class="card-title"><a href="#" class="linksCards">HTML</a></h5>
+    <p class="card-text">Con este curso aprenderás las bases para la maquetación web utilizando html.</p>
+    <a href="#" class="btn btn-primary">Aprende más</a>
+  </div>
+</div>
+
+<div class="card m-2 col-4" style="width: 19rem;" >
+ <img src="img/css.jpg" class="card-img-top p-2 cursos" alt="logo-css">
+ <div class="card-body">
+  <h5 class="card-title"><a href="#" class="linksCards">CSS</a></h5>
+  <p class="card-text">Con este curso darás estilos a tus páginas web, y mostrarás tu lado más creativo.</p>
+  <a href="#" class="btn btn-primary">Aprende más</a>
+</div>
+</div>
+
+<div class="card m-2 col-4" style="width: 19rem;" >
+ <img src="img/javascript.jpg" class="card-img-top p-2 cursos" alt="logo-javascript">
+ <div class="card-body">
+  <h5 class="card-title"><a href="#" class="linksCards">Javascript</a></h5>
+  <p class="card-text">Con este curso aprenderás lógica de programación y páginas web dinámicas.</p>
+  <a href="#" class="btn btn-primary">Aprende más</a>
+</div>
+</div>
+
+<!-- ------2da parte-------------- -->
+<div class="card m-2 col-4" style="width: 19rem;" >
+   <img src="img/phpeditado.jpg" class="card-img-top p-2 cursos" alt="logo-html">
+   <div class="card-body">
+    <h5 class="card-title"><a href="#" class="linksCards">PHP</a></h5>
+    <p class="card-text">Este lenguaje sirve a programadores que empiezan en la creación de páginas web.</p>
+    <a href="#" class="btn btn-primary">Aprende más</a>
+  </div>
+</div>
+
+<div class="card m-2 col-4" style="width: 19rem;" >
+ <img src="img/ruby.jpg" class="card-img-top p-2 cursos" alt="logo-css">
+ <div class="card-body">
+  <h5 class="card-title"><a href="#" class="linksCards">Ruby</a></h5>
+  <p class="card-text">Lenguaje que ofrece escritura dinámica y un recolector de basura automático.</p>
+  <a href="#" class="btn btn-primary">Aprende más</a>
+</div>
+</div>
+
+<div class="card m-2 col-4" style="width: 19rem;" >
+ <img src="img/python.jpg" class="card-img-top p-2 cursos" alt="logo-javascript">
+ <div class="card-body">
+  <h5 class="card-title"><a href="#" class="linksCards">Python</a></h5>
+  <p class="card-text">Lenguaje que no reporta gran dificultad para programar en cualquier sistema operativo.</p>
+  <a href="#" class="btn btn-primary">Aprende más</a>
+</div>
+</div>
+
+</div>
+
+
+
+<!-- carrousel de imágenes -->
+<div class="calesita container">
+<div id="carouselExampleFade" class="carousel slide carousel-fade col-6" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/carr01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carr02.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carr03.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carr04.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carr05.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
-</nav>
-	</header>
-  <!-- cards parte superior -->
-
-   <div class="tarjetasCursos mt-4 mb-5 sm">
-
-    <div class="card m-2 " style="width: 19rem;" >
-     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/375px-HTML5_logo_and_wordmark.svg.png" class="card-img-top p-2 cursos" alt="logo-html">
-       <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <p class="card-text">Con este curso aprenderás las bases para la maquetación web utilizando html.</p>
-        <a href="#" class="btn btn-primary">Aprende más</a>
-       </div>
-    </div>
-
-   <div class="card m-2" style="width: 19rem;" >
-     <img src="http://lineadecodigo.com/wp-content/uploads/2014/04/css.png" class="card-img-top p-2 cursos" alt="logo-css">
-      <div class="card-body">
-        <h5 class="card-title">CSS</h5>
-        <p class="card-text">Con este curso podrás dar estilos a tus páginas web, personalizarlas y mostrar tu lado más creativo.</p>
-        <a href="#" class="btn btn-primary">Aprende más</a>
-      </div>
-   </div>
-
-   <div class="card m-2" style="width: 19rem;" >
-     <img src="https://1000marcas.net/wp-content/uploads/2020/11/JavaScript-logo.jpg" class="card-img-top p-2 cursos" alt="logo-javascript">
-       <div class="card-body">
-          <h5 class="card-title">Javascript</h5>
-          <p class="card-text">Con este curso podrás acercarte a la lógica de programación y desarrollar páginas web dinámicas.</p>
-          <a href="#" class="btn btn-primary">Aprende más</a>
-       </div>
-    </div>
-   </div>
-
-
-
-  <!-- carrousel de imágenes -->
-	<div class="calesita mt-3 w-100">
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-       <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://www.descargandolo.net/wp-content/uploads/2019/05/descargamdolonet-1320x743.jpg" class="d-block w-100 calesita2" alt="...">
-        </div>
-           <div class="carousel-item">
-             <img src="https://www.loopeando.com/wp-content/uploads/2016/11/html5-1320x743.jpg" class="d-block w-100 calesita2" alt="...">
-           </div>
-        <div class="carousel-item">
-           <img src="https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png" class="d-block w-100 calesita2" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-       <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-
-  <div class="miniBio">
-    <div class="objetivo">
-        <h2>Mi objetivo del curso</h2>Lograr sumar conociemientos, pricipalmente en programación Javascript, que personalmente es un lenguaje que no logro comprender en profundidad su funcionamiento.
-    </div>
-    
-         <h2>Mini Bio:</h2> Tengo 39 años, soy docente de Artes visuales, casi licenciado en Audiovisión y estudiante de idiomas entre otros hobbies. Vivo en el sur del conurbano bonaerense y amante de aprender cosas nuevas que presenten un desafío.
-  </div> 
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-	    
-	
-	
+
+<!-- ------Minio Bio---------------- -->
+<div class="miniBio container">
+  <div class="objetivo col-6">
+    <h2>Mi objetivo del curso</h2>Lograr sumar conociemientos, pricipalmente en programación Javascript, que personalmente es un lenguaje que no logro comprender en profundidad su funcionamiento.
+  </div>
+  <br>
+
+  <h2>Mini Bio:</h2> Tengo 39 años, soy docente de Artes visuales, casi licenciado en Audiovisión y estudiante de idiomas entre otros hobbies. Vivo en el sur del conurbano bonaerense y amante de aprender cosas nuevas que presenten un desafío.
+</div>
+
+</div>
+
+<!-- </div> -->
+
+
+
 <footer class="pieDePagina pt-3">
   <div class="menuFooter p-2">
-      <div>
-		    <ul class="pie">
-			    <li class="fraga"><a href="#">Luis Fraga Benitez - 2021</a></li>
-			    <li><a href="#">Contactános</a></li>
-			    <li><a href="#">Todos los derechos reservados</a></li>
-		    </ul>
-      </div>
-      <div>
-        <ul class="pie">
-          <li class="fraga"><a href="#">Equipo</a></li>
-          <li><a href="#">Sobre los cursos</a></li>
-          <li><a href="#">Más info</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul class="pie">
-          <li class="fraga"><a href="">Inscripción</a></li>
-          <li><a href="#">Hoja de vida</a></li>
-          <li><a href="#">Desarrollado por nosotros</a></li>
-        </ul>
-      </div>
+    <div>
+      <ul class="pie">
+       <li class="fraga"><a href="#">Luis Fraga Benitez - 2021</a></li>
+       <li><a href="#">Contactános</a></li>
+       <li><a href="#">Todos los derechos reservados</a></li>
+     </ul>
+   </div>
+   <div>
+    <ul class="pie">
+      <li class="fraga"><a href="#">Equipo</a></li>
+      <li><a href="#">Sobre los cursos</a></li>
+      <li><a href="#">Más info</a></li>
+    </ul>
   </div>
+  <div>
+    <ul class="pie">
+      <li class="fraga"><a href="">Inscripción</a></li>
+      <li><a href="#">Hoja de vida</a></li>
+      <li><a href="#">Desarrollado por nosotros</a></li>
+    </ul>
+  </div>
+</div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
 <!--
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 -->
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
